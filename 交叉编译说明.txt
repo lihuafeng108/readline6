@@ -1,0 +1,9 @@
+1.执行配置脚本
+# am335x
+./configure --build=i686 --host=arm-linux --prefix=/mnt/share/build/ CC=arm-linux-gnueabihf-gcc
+# am389x
+./configure --build=i686 --host=arm-linux --prefix=/mnt/share/build/ CC=arm-none-linux-gnueabi-gcc
+  --prefix的作用是指定安装目录
+2.执行编译命令make
+3.执行安装命令make install
+
